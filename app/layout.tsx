@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-blue-900 dark:text-white h-full selection:bg-gray-50`}>
+      <body className={`${inter.className} bg-white text-black dark:bg-gray-900 dark:selection:bg-blue-900 dark:text-white h-full selection:bg-green-50`}>
         <Providers>
         <Navbar />
         <main className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8'>
